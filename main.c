@@ -35,6 +35,7 @@ int select(int C_size,int S_size,int C_array[C_size][S_size])
 
                 if(a+1 == cno){
                     printf("Stole Number %d , ",C_array[a][b]);
+                    goto choice;
                 }
             }
         }
